@@ -72,18 +72,10 @@ dependencies {
     implementation(libs.kotlinx.coroutines.core)
     testImplementation(libs.kotlinx.coroutines.test)
 
-//    Retrofit
-    implementation(libs.squareup.retrofit)
-    implementation(libs.squareup.converter.gson)
-
-    implementation(libs.logging.interceptor)
-    implementation(libs.okhttp)
-
 //    Hilt
     implementation(libs.dagger.hilt.android)
     kapt(libs.hilt.android.compiler)
     implementation(libs.androidx.hilt.hilt.navigation.compose)
-
 
 }
 
